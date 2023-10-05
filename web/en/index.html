@@ -42,7 +42,9 @@
     <script>
         function loadMarkdown() {
             var elements = document.querySelectorAll('[mdtarget]');
-            var md = window.markdownit();
+            var md = window.markdownit({
+                html: true
+            });
 
             elements.forEach(function (element) {
                 var mdsource = element.getAttribute('mdsource');
