@@ -32,7 +32,7 @@
 
 ### ipv6 互联图
 
-![he-svg](https://bgp.he.net/graphs/as203023-ipv6.svg)
+<embed src="https://bgp.he.net/graphs/as203023-ipv6.svg" alt="he-svg">
 
 ## 和 AS203023 对等互联
 

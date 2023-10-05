@@ -32,7 +32,7 @@ Please visit [https://lg.かわいい.net](https://lg.かわいい.net)
 
 ### ipv6 graph
 
-![he-svg](https://bgp.he.net/graphs/as203023-ipv6.svg)
+<embed src="https://bgp.he.net/graphs/as203023-ipv6.svg" alt="he-svg">
 
 ## Peering with AS203023
 
