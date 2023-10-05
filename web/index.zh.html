@@ -9,6 +9,19 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
     <style type="text/css">
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        #content {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 30px;
+            max-width: 100%;
+        }
+
         .markdown-body {
             --color-accent-fg: #4caf50;
             --color-accent-emphasis: #4caf50;
@@ -18,7 +31,8 @@
 </head>
 
 <body>
-    <div mdtarget mdsource="https://raw.githubusercontent.com/canoziia/as203023-public/main/web/index.zh.md"
+    <div id="content" mdtarget
+        mdsource="https://raw.githubusercontent.com/canoziia/as203023-public/main/web/index.zh.md"
         class="markdown-body"></div>
 
     <script>
