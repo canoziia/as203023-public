@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AS203023 Kawaii Network</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/13.0.1/markdown-it.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
+    <style type="text/css">
+        .markdown-body {
+            --color-accent-fg: #4caf50;
+            --color-accent-emphasis: #4caf50;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div mdtarget mdsource="https://raw.githubusercontent.com/canoziia/as203023-public/main/web/index.en.md"
+        class="markdown-body"></div>
+
+    <script>
+        function loadMarkdown() {
+            var elements = document.querySelectorAll('[mdtarget]');
+            var md = window.markdownit();
+
+            elements.forEach(function (element) {
+                var mdsource = element.getAttribute('mdsource');
+
+                if (mdsource !== null) {
+                    var xhr = new XMLHttpRequest();
+                    xhr.open('GET', mdsource, true);
+
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState === 4 && xhr.status === 200) {
+                            var result = xhr.responseText;
+                            element.innerHTML = md.render(result);
+                        }
+                    };
+
+                    xhr.send();
+                } else {
+                    element.innerHTML = md.render(element.textContent);
+                }
+            });
+        }
+
+        loadMarkdown();
+    </script>
+</body>
+
+</html>
