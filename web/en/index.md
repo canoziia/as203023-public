@@ -42,6 +42,13 @@ The same IX, or pull a cable, or using tunnel (~~You can connect as you like~~)
 
 (~~You can connect as you like~~)
 
+## Services
+
+anycast dns:
+
+-   2a06:1287:300::6666 (dns.kawaii.net.cn)
+-   https://dns.kawaii.net.cn/dns-query
+
 ## Contact
 
 -   telegram [@canoziia](https://t.me/canoziia)

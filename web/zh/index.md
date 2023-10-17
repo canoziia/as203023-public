@@ -42,6 +42,13 @@
 
 (~~您想怎么连就怎么连~~)
 
+## 服务
+
+任播 dns:
+
+-   2a06:1287:300::6666 (dns.kawaii.net.cn)
+-   https://dns.kawaii.net.cn/dns-query
+
 ## 联系
 
 -   telegram [@canoziia](https://t.me/canoziia)
