@@ -56,6 +56,10 @@
 
 # 其他业务
 
+## Sky Survey: Kawaii Astronomical Wide-Angle Intelligent Imaging
+
+天文巡天项目, 使用一台视场为 3.5°x2.3° 的相机自动化巡天. 目前正在前期筹备.
+
 ## 远程天文台出租
 
 设备位于迪庆藏族自治州, 光污染 2 级, 视宁度极佳. 设备为 裕众 80APO PRO + QHY268M + LRGBSHO 滤镜 + 信达 EQ6R, 带电调.
