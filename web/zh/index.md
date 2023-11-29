@@ -46,7 +46,7 @@
 
 任播 dns:
 
--   2a06:1287:300::6666 (dns.kawaii.net.cn)
+-   2602:f9df:111::1111 (dns.kawaii.net.cn)
 -   https://dns.kawaii.net.cn/dns-query
 
 ## 联系
