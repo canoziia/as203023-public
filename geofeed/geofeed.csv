@@ -1,11 +1,4 @@
 # prefix,country_code(ISO 3166-1),region_code(ISO 3166-2),city,postal
-2a06:1287:300::/48,TW,,,
-2a06:1287:301::/48,HK,,,
-2a06:1287:302::/48,TW,,,
-2a06:1287:310::/48,CN,,,
-2a06:1287:320::/48,HK,,,
-2a06:1287:330::/48,US,,,
-2a06:1287:340::/48,TW,,,
 
 2a0e:aa07:e151::/48,CN,,,
 2a0e:aa07:e151:0::/64,CN,CN-ZJ,Wenzhou,
@@ -16,6 +9,7 @@
 2a0e:aa07:e153:1::/64,US,US-WA,Seattle,
 2a0e:aa07:e153:2::/64,US,US-CA,San Jose,
 2a0e:aa07:e154::/48,TW,,,
+2a0e:aa07:e15e::/48,TW,,,
 
 2602:f9df:110::/44,US,,,
 2602:f9df:110::/48,US,US-CA,San Jose,
