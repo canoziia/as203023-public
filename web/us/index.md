@@ -12,6 +12,14 @@ We have open peering policy, please contact us if you want to peer with us.
 
 We provide free ip transit for users who purchase our VPS.
 
+## other services
+
+### Project Kawaii
+
+Watch torrents online! Try watching Sintel on [https://www.projectk.org/?uri=magnet%3A%3Fxt%3Durn%3Abtih%3A08ada5a7a6183aae1e09d831df6748d566095a10](https://www.projectk.org/?uri=magnet%3A%3Fxt%3Durn%3Abtih%3A08ada5a7a6183aae1e09d831df6748d566095a10)
+
+This is powered by webtorrent and webrtc and libtorrent2.0.
+
 ## Contact
 
 -   Admin/Tech/Abuse email [canoziia@projectk.org](mailto:canoziia@projectk.org)
