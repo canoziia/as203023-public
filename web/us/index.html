@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AS27523 Kawaii Network</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/13.0.1/markdown-it.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
+    <style type="text/css">
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        #content {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 30px;
+            max-width: 95%;
+        }
+
+        @media (min-width: 900px) {
+            #content {
+                max-width: 70%;
+            }
+        }
+
+        .markdown-body {
+            --color-accent-fg: #4caf50;
+            --color-accent-emphasis: #4caf50;
+        }
+
+        embed {
+            max-width: 100%;
+        }
+    </style>
+
+</head>
+
+<body class="markdown-body">
+    <div id="content" mdtarget
+        mdsource="https://raw.githubusercontent.com/canoziia/as203023-public/main/web/us/index.md"></div>
+
+    <script>
+        function loadMarkdown() {
+            var elements = document.querySelectorAll('[mdtarget]');
+            var md = window.markdownit({
+                html: true
+            });
+
+            elements.forEach(function (element) {
+                var mdsource = element.getAttribute('mdsource');
+
+                var timestamp = new Date().getTime();
+                var mdsource = mdsource + '?ts=' + timestamp;
+
+                if (mdsource !== null) {
+                    var xhr = new XMLHttpRequest();
+                    xhr.open('GET', mdsource, true);
+
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState === 4 && xhr.status === 200) {
+                            var result = xhr.responseText;
+                            element.innerHTML = md.render(result);
+                        }
+                    };
+
+                    xhr.send();
+                } else {
+                    element.innerHTML = md.render(element.textContent);
+                }
+            });
+        }
+
+        loadMarkdown();
+    </script>
+</body>
+
+</html>
